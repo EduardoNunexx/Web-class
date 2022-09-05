@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <ul>
+    <ul class="navbar">
         <li><a href="#">Home</a></li>
         <li><a href="#">Explore</a></li>
         <li><a href="#">Notifications</a></li>
@@ -15,26 +16,35 @@
         <li><a href="#">Profile</a></li>
         <li><a href="#">More</a></li>
     </ul>
-    <img src="" alt="">
-    <h1>Eduardo Nunes</h1>
-    <h5>@dudununex</h5>
+    <img src="./img/perfil.jpg" alt="">
     <button>edit profile</button>
-    <ul>
+    <h1 id="name">Eduardo Nunes</h1>
+    <h5 id="idName">@dudununex</h5>
+    <h5 id="userDescription">Software engineer and the most awesome guy in the whole world</h5>
+    <ul class="infos">
         <li><a href="#">Quixadá</a></li> 
-        <li><a href="#">Joined august</a></li>
+        <li><a href="#">Joined august 2022</a></li>
     </ul>
-    <ul>
-        <li><a href="#">Localization</a></li> 
-        <li><a href="#">when the user in</a></li>
+    <ul class="follow">
+        <li><a href=""><span>300</span> following</a></li>
+        <li><a href=""><span>2</span> following</a></li>
     </ul>
-    <p>
-        <img src="" alt="">
+    <p class="publi">
+        <img src="./img/user.jpg" alt="">
         <a href="#">Tzeets</a>
         <a href="#">Tzeets&Replies</a>
         <a href="#">Medias</a>
         <a href="#">Links</a>
-        </br> Eduardo Nunes @dudununex aug 22,2022
-        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempore corporis repellat minima magni. Sunt!</div>
+        <div class="msg">
+            <div class="msgInfos">Eduardo Nunes <span>@dudununex</span> <span id="dateMsg">aug 22,2022</span></div>
+            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum tempore corporis repellat minima magni. Sunt!</div>
+        </div>
     </p>
+    <ul class="actions">
+        <li><a href="#" id="Reply">Reply</a></li>
+        <li><a href="#" id="Retzeet">Retzeet</a></li>
+        <li><a href="#" id="Like">Like</a></li>
+        <li><a href="#" id="Reply">Share</a></li>
+    </ul>
 </body>
 </html>
