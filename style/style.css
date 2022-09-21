@@ -1,7 +1,12 @@
-img{
+.pImg{
     border-radius: 500px;
-    height: 80px;
-    width: 80px;
+    height: 90px;
+    width: 90px;
+}
+.threImg{
+    border-radius: 500px;
+    height: 60px;
+    width: 60px;
 }
 .navbar{
     list-style: none;
@@ -20,7 +25,7 @@ img{
 }
 .publi a:hover {
     background-color:rgba(15, 25, 20, 0.1);
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .follow li{
     display: inline;
@@ -42,6 +47,7 @@ img{
 .actions li a{
     color:rgb(83, 100, 113);
     border-radius: 2px;
+    text-align: center;
 }
 #Reply:hover{
     color: rgba(29, 155, 240, 1);
@@ -82,4 +88,7 @@ img{
 }
 #date.msg{
     color:rgb(83, 100, 113);
+} 
+.barthre{
+    list-style: none;
 }
