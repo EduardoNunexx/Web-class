@@ -6,6 +6,7 @@ let contM= document.querySelector('.counterM')
 twt.addEventListener("input",start)
 twtM.addEventListener("input",startM)
 function start(){
+    console.log('1')
     let inp = twt.value.length
     cont.innerHTML=140-inp
     if(inp>0){
