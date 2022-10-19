@@ -2,11 +2,15 @@ body{background:rgb(17, 16, 16)}
 .pw{
     margin-bottom: 5px;
 }
+hr {
+    margin: 10px;
+}
 .login-container{
     position: relative;
-    width: 300px;
+    height: 500px;
+    width: 350px;
     margin: 150px auto;
-    padding: 20px 40px 40px;
+    padding: 2px 30px 20px;
     text-align: center;
     background: #fff;
     border: 1px solid #ccc;
@@ -22,10 +26,26 @@ body{background:rgb(17, 16, 16)}
     width: 100px;
     height: 5px;
 }
-.bt{
-  align-self:center;  
-  margin-top: 30px;
+#btl{
+    width: 250px;
+    align-self:center;  
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
-
+.invalidDateMounth{
+    display: none;
+    color: rgb(237, 12, 12);
+}
+.invalidDateDay{
+    display: none;
+    color: rgb(237, 12, 12);
+}
+.invalidDateYear{
+    display: none;
+    color: rgb(237, 12, 12);
+}
+.cont-select{
+    height: 90px;
+}
 
 

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/styleForm.css">
+    <link rel="stylesheet" href="./style/createAccount.css">
+</head>
+
+<body>
+    <form action="./profileList4.html" class="container" validate>
+        <div class="login-container">
+            <div class="avatar"><img src="./img/tiziu.png" alt=""></div>
+            <div class="form-floating mb-3">
+                <input type="email" class="form-control needs-validation" id="exEmail" placeholder="E-mail" required>
+                <label for="exEMail">Get in twitter</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="password" class="pw form-control" name="" id="exPassword" placeholder="Password" minlength="6" required>
+                <label for="exPassword" class="form-label">Password</label>
+            </div>
+            <div class="forgot"><a href="">Forgot password ?</a></div>
+            <div class="bt"><button class="btn btn-primary" type="" id="btl">Login</button></div>
+            <div class="crt">
+                Don't have account ?
+                <a href="" data-bs-toggle="modal" data-bs-target="#xModal">Create account</a>
+            </div>
+        </div>
+    </form>
+    <!--modalCreate-->
+    <div class="modal face" id="xModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <form action="" validate id="formSend">
+                        <div class="d-flex">
+                            <h1 class="createTitle p-2">Create account</h1>
+                            <button type="button" class="btx btn-close p-2" data-bs-dismiss="modal"
+                                aria-label="Close"></button>
+                        </div>
+                        <hr>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="Name" placeholder="Name" required>
+                            <label for="Name">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control needs-validation" id="ex2Email" placeholder="E-mail"
+                                required>
+                            <label for="ex2EMail">E-mail</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="pass form-control" id="password" placeholder="password" minlength="6" required>
+                            <label for="password">Password</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="passConfirm" placeholder="Confirm Password"
+                                required>
+                            <label for="confirmP">Confirm password</label>
+                        </div>
+                        <div class="datN">
+                            <h2>Birthday</h2>
+                            <span>This won't be displayed publicly. Confirm you own age,even if this account belongs a
+                                company, a pet or others. </span>
+                        </div>
+                        <div class="d-flex cont-select">
+                            <div class="mounth p-2 form-floating mb-5">
+                                <select class="form-select" id="mounth" required>
+                                    <option selected disabled></option>
+                                    <option value="January">January</option>
+                                    <option value="February">February</option>
+                                    <option value="March">March</option>
+                                    <option value="April">April</option>
+                                    <option value="May">May</option>
+                                    <option value="June">June</option>
+                                    <option value="July">July</option>
+                                    <option value="August">August</option>
+                                    <option value="Setember">Stemeber</option>
+                                    <option value="October">Ocotober</option>
+                                    <option value="November">November</option>
+                                    <option value="December">Dcember</option>
+                                </select>
+                                <label for="mounth">Mounth</label>
+                            </div>
+                            <div class="number p-2 form-floating mb-5">
+                                <select class="form-select" id="day" required>
+                                    <option selected disable></option>
+                                </select>
+                                <label for="day">Day</label>
+                            </div>
+                            <div class="number p-2 form-floating mb-5">
+                                <select class="form-select" id="year" required>
+                                    <option selected disabled></option>
+                                </select>
+                                <label for="year">Year</label>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <span>Recive emails about your activitys on tweeter and recomendations</span><br>
+                            <span>You agree with pur terms, with pryvacity politcs and the use of cookies ?</span>
+                        </div>
+                        <div class="d-flex">
+                            <div class="form-check">
+                                <input type="radio" class="form-check-input" id="agree" name="radio-stacked" required>
+                                <label class="form-check-label" for="agree">I agree</label>
+                              </div>
+                              <div class=" decline form-check mb-3">
+                                <input type="radio" class="form-check-input" id="desagree" name="radio-stacked">
+                                <label class="form-check-label" for="desagree">Dont agree</label>
+                            </div>
+                        </div>
+                        <div class="btfm"><input class="btn btn-primary" type="submit" id="btf" disabled= true value="Login"></input>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="./loginScript.js"></script>
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

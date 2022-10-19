@@ -1,0 +1,62 @@
+body{background:rgb(17, 16, 16)}
+.modal {
+    --bs-modal-margin: 1.25rem;
+}
+.modal-content{
+    width:500px;
+    position: fixed;
+}
+.modal-body{
+    padding: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+.createTitle{
+    width:500px;
+}
+hr {
+    margin: 10px 0;
+}
+.pw{
+    margin-bottom: 5px;
+}
+.top{
+    padding-right: 20px;
+    align-self: center;
+    width: 350px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+}
+h2{
+    font-size: 20px;
+}
+.datN{
+    font-size: 10px;
+}
+.number{
+    width: 130px;
+}
+.mounth{
+    width: 200px;
+}
+.footer{
+    font-size:14px;
+}
+.agree{
+    margin-top: 20px;
+}
+.btfm{
+    margin-top: 1px;
+    margin-left:50px;
+}
+#btf{
+    width: 350px;
+}
+.decline{
+    margin-left: 10px;
+}
+
+
+
+
+
